@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "routes": [
+  "builds": [
     {
-      "src": "/(.*)",
-      "dest": "/少年你相信光吗"
+      "src": "少年你相信光吗",
+      "use": "@vercel/node"
     }
   ]
 }
